@@ -131,17 +131,17 @@
 // //   - To String
 // //   - To Fixed
 
-//MẢNG TRONG JAVASCRIPT
-//1. Tạo mảng
-var language = ["Javascript", "PHP", "Ruby", "Dart"];
+// //MẢNG TRONG JAVASCRIPT
+// //1. Tạo mảng
+// var language = ["Javascript", "PHP", "Ruby", "Dart"];
 
-console.log("Array: ", language);
-//Phân biệt kiểu Object và Array
-console.log("phân biệt Array và Object: ", Array.isArray(language));
-//Truy xuất mảng
-//Sử dụng .length để lấy chỉ mục/ Vị trí mảng
-//Truy xuất phần tử theo chỉ mục
-console.log("Truy xuất theo chỉ mục: ", language[2]);
+// console.log("Array: ", language);
+// //Phân biệt kiểu Object và Array
+// console.log("phân biệt Array và Object: ", Array.isArray(language));
+// //Truy xuất mảng
+// //Sử dụng .length để lấy chỉ mục/ Vị trí mảng
+// //Truy xuất phần tử theo chỉ mục
+// console.log("Truy xuất theo chỉ mục: ", language[2]);
 
 // //LÀM VIỆC VỚI ARRAY
 // // 1.To String
