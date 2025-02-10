@@ -143,13 +143,43 @@ console.log("phân biệt Array và Object: ", Array.isArray(language));
 //Truy xuất phần tử theo chỉ mục
 console.log("Truy xuất theo chỉ mục: ", language[2]);
 
-//LÀM VIỆC VỚI ARRAY
-// 1.To String
-console.log("Chuyển Array thành chuỗi: ", language.toString());
-// 2.Join
-console.log("Thêm phần tử giữa các mảng: ", language.join(", "));
-// 3.Pop <> Shift -->Xóa phần tử cuối Trả về phần tử đã xóa
-console.log("Xóa phần tử cuối: ", language.pop()); // xóa phần tử cuối mảng và trả về phần tử đã xóa
-// 4.Push --> trả về new length
-console.log("Thêm vào phần tử ở cuối mảng:", language.push("java"));
-// 5. Shift <> Pop --> Xóa phần tử đầu
+// //LÀM VIỆC VỚI ARRAY
+// // 1.To String
+// console.log("Chuyển Array thành chuỗi: ", language.toString());
+// // 2.Join
+// console.log("Thêm phần tử giữa các mảng: ", language.join(", "));
+// // 3.Pop <> Shift -->Xóa phần tử cuối Trả về phần tử đã xóa
+// console.log("Xóa phần tử cuối: ", language.pop()); // xóa phần tử cuối mảng và trả về phần tử đã xóa
+// // 4.Push <> Unshift --> trả về new length
+// console.log("Thêm vào phần tử ở cuối mảng:", language.push("java"));
+// // 5. Shift <> Pop --> Xóa phần tử đầu Trả về phần tử đã xóa
+// console.log("Xóa phần tử đầu: ", language.shift());
+// console.log(language); // --> nếu xóa mảng rỗng sẽ trả về Undefined
+// // 6.UnShift <> Push --> thêm 1 hoặc nhiều phần tử vào đầu mảng và trả về Length
+// console.log("Thêm phần tử vào đầu mảng: ", language.unshift("java"));
+// // 7. Splicing --> Có thể xóa, cắt, chèn phần tử mới vào mảng
+// var newArray = ["Java", "Ruby", "Dash", "PHP", "C++"];
+// //.splice(<vị trí đặt con trỏ>, <số lượng element muốn xóa>, <Số phần tử muốn thêm>)
+// newArray.splice(1, 2, "Ruby");
+// console.log(newArray);
+// // 8. Concat --> Nối 2 Array
+// var secondArray = ["C", "C++"];
+// console.log(newArray.concat(secondArray));
+// // 9.Slicing --> Dùng để cắt toàn bộ hoặc một vài element
+// var thirdArray = ["Java", "Ruby", "Dash", "PHP", "C++"];
+// console.log("Cắt nhiều hoặc toàn bộ element: ", thirdArray.slice(1, 3));
+
+//HÀM (FUNCTION) TRONG JAVASCRIPT
+// 1. Hàm?
+//  - Hàm là một khối mã
+//  - Làm một công việc cụ thể
+
+// 2. Loại hàm?
+//  - Build in
+//  - Tự định nghĩa
+
+// 3. Tính chất?
+//  - Không thực thi khi định nghĩa 
+//  - Sẽ thực thi khi được gọi
+//  - Có thể nhận tham số
+//  - Có thể trả về một giá trị
