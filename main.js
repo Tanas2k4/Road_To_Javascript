@@ -169,7 +169,7 @@
 // var thirdArray = ["Java", "Ruby", "Dash", "PHP", "C++"];
 // console.log("Cắt nhiều hoặc toàn bộ element: ", thirdArray.slice(1, 3));
 
-//HÀM (FUNCTION) TRONG JAVASCRIPT
+// HÀM (FUNCTION) TRONG JAVASCRIPT
 // 1. Hàm?
 //  - Hàm là một khối mã
 //  - Làm một công việc cụ thể
@@ -179,7 +179,13 @@
 //  - Tự định nghĩa
 
 // 3. Tính chất?
-//  - Không thực thi khi định nghĩa 
+//  - Không thực thi khi định nghĩa
 //  - Sẽ thực thi khi được gọi
 //  - Có thể nhận tham số
 //  - Có thể trả về một giá trị
+
+// Truyền tham số
+function writeLog(message) {
+  console.log(message);
+}
+writeLog("Test message");
