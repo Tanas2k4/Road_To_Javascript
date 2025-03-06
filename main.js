@@ -188,4 +188,13 @@
 function writeLog(message) {
   console.log(message);
 }
-writeLog("Test message");
+writeLog("Test message"); // --> nếu không truyền thì giá trị mặc định là undefined
+//Arguments Object có thể chứa Array
+function writLog2() {
+  var myString = "";
+  for (var param of arguments) {
+    myString += `${param} - `;
+  }
+  console.log(myString);
+}
+writLog2("log1", "log2", "log3");

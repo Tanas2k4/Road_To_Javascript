@@ -1,4 +1,4 @@
-﻿🚀Dành cho gười mới bắt đầu với Javascript 🖥️
+﻿🚀Dành cho người mới bắt đầu với Javascript 🖥️
 
 Bạn muốn bắt đầu với JavaScript nhưng không biết từ đâu? Đây là tài liệu hoàn hảo dành cho bạn! 📖
 
